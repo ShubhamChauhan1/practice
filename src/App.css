@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to right, #ceee3d,#f1fbbe);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  color: rgb(253, 252, 252);
 }
 
 .App-link {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  padding: 2em;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 60%;
+  min-width:480px;
+  background: linear-gradient(to right, #c9ea66,#f4f0bb);
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  min-height: 100px;
+  text-align: center;
+  
+}
+.button button:hover{
+  background-color: #81d5f1;
 }
